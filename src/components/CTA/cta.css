@@ -1,0 +1,41 @@
+.cta{
+    background: var(--gradient-text);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta .left p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0E0E0E;
+}
+.cta .left h4{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+}
+.cta .right button{
+    width: 189.14px;
+    height: 59.4px;
+    background: #000000;
+    border-radius: 40px;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+@media(max-width:900px){
+    .cta{
+        flex-direction: column;
+    }
+    .cta .right button{
+        margin: 2rem 0 0;
+    }
+}

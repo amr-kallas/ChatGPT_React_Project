@@ -17,6 +17,11 @@ function App() {
         <Nav />
         <Header />
       </div>
+      <Brand/>
+      <WhatGPT3/>
+      <Features/>
+      <Posibility/>
+      <Cta/>
     </div>
   );
 }

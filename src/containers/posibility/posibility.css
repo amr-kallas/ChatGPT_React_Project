@@ -1,0 +1,48 @@
+.posibility{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(315px,1fr));
+    align-items: center;
+}
+.posibility .image{
+    width: 100%;
+}
+.posibility .image img{
+    max-width: 100%;
+}
+.posibility .content .h4-one{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+}
+.posibility .content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 1rem 0;
+}
+.posibility .content p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #81AFDD;
+}
+.posibility .content .h4-two{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+    margin-top: 1rem;
+}
+@media(max-width:900px){
+    .posibility{
+        grid-template-columns: 1fr ;
+    }
+    .posibility .content{
+        grid-row: 1;
+    }
+}
