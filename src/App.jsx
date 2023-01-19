@@ -22,6 +22,8 @@ function App() {
       <Features/>
       <Posibility/>
       <Cta/>
+      <Blog/>
+      <Footer/>
     </div>
   );
 }

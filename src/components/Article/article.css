@@ -1,0 +1,43 @@
+.article{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.article img{
+    width: 100%;
+    height: 100%;
+}
+.article .details{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-footer);
+    padding: 1rem;
+}
+.article .heading{
+
+}
+.article .heading span{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 11.649px;
+    line-height: 35px;
+    color: #fff;
+    display: block;
+}
+.article .heading h3{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 19.3154px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.article .details p{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 11.649px;
+    line-height: 35px;
+    color: #FFFFFF;
+}

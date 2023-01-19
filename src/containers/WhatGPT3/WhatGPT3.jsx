@@ -10,7 +10,7 @@ function WhatGPT3() {
         <h1 className="gradient-text">The possibilities are beyond your imagination</h1>
         <p>Explore The Library</p>
       </div>
-      <div className="footer">
+      <div className="footers">
         <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. " />
         <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments" />
         <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments" />

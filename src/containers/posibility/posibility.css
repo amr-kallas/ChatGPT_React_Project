@@ -1,7 +1,8 @@
 .posibility{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(315px,1fr));
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
+
 }
 .posibility .image{
     width: 100%;
